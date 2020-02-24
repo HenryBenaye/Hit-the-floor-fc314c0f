@@ -1,7 +1,7 @@
 <?php
 
 $change = (int)$argv[1];
-$coins = [10, 5, 2, 1];
+$coins = [10, 2, 1];
 
 foreach($coins as $munt){
     if(floor($change / $munt) > 0){
