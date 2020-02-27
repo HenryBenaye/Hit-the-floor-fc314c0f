@@ -1,6 +1,6 @@
 <?php
 
-$change = (int)$argv[1];
+$change = (float)$argv[1];
 $coins = [10, 2, 1];
 
 foreach($coins as $munt){
